@@ -1,0 +1,59 @@
+
+.chesslegends-img {
+    width: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 0%;
+    border: 1 solid #fff; }
+  
+    #chesslegendsmenu .box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center; }
+  
+  #chesslegendsmenu .box2 {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 5px 40px 5px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center; }
+  
+  #chesslegendsmenu .dark {
+    background-color: #868786    ;//var(--ion-color-secondary)  
+    color: #ffffff; }
+  
+  #chesslegendsmenu .box:hover, #chesslegendsmenu .box2:hover {
+    transform: scale(1.1); }
+  
+  #chesslegendsmenu .title, #chesslegendsmenu .titledark {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px; }
+  
+  #chesslegendsmenu .title a {
+    color: #111; }
+  
+  #chesslegendsmenu .titledark a {
+    color: #ffffff; }
+  
+  #chesslegendsmenu .box:hover .title a, #chesslegendsmenu .box2:hover .title a {
+    color: #9075d9; }
+  
+  #chesslegendsmenu .box:hover .titledark a, #chesslegendsmenu .box2:hover .titledark a {
+    color: #c5a3ff; }
+  
+  #chesslegendsmenu .description {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 0;
+    text-align: center; }
